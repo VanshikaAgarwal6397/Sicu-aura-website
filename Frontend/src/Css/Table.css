@@ -1,0 +1,30 @@
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 20px;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .styled-table th {
+    background-color:  #0DF5E3;
+    ;
+    font-weight: bold;
+    white-space: nowrap;
+    
+  }
+  .styled-table tbody tr {
+    border-radius: 20px; /* Apply border radius to table rows */
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  
